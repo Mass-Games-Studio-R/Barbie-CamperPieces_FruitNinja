@@ -11,6 +11,10 @@ body * {
   margin: 0;
 }
 
+#internalDiv{
+  position:relative !important,
+  left : 0 !important,
+}
 
 #loader-container {
   z-index: 2000;
@@ -342,8 +346,8 @@ background-color:#da7c22;*/
 
 @media only screen and (min-width:1200px) {
   #internalDiv {
-    max-width: 50vh;
-    max-height: 900px;
+    max-width: 100%;
+    max-height: 100%;
   }
 }
 
